@@ -1,0 +1,679 @@
+@import url('http://fonts.cdnfonts.com/css/belligiant');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Raleway:wght@100;200&display=swap');
+@font-face {
+font-family: Nevrada;
+src: url('Nevrada.ttf'), url(Nevrada.otf);
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* NAVIGATION, HEADCONTENT, actioncontent */
+
+.header {
+  background-image: url(image1.jpg);
+  background-size: cover;
+  //border: solid 1px black;
+  width: 1349px;
+  height: 400px;
+  margin: auto;
+}
+
+
+.headcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+
+  //border: solid black 1px;
+  //width: 22px;
+  //height: 40px;
+  padding-bottom: 20px;
+  margin-left: 60px;
+}
+
+.logo h1 {
+  font-family: Belligiant, Arial;
+//text-align: center;
+  font-size: 20px;
+  margin-top: -3px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  //border: white solid 1px;
+  margin-left: 140px;
+  padding-top: 5px;
+  width: 80%;
+max-width: 1200px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav a {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.menu {
+  //border: solid black 1px;
+  width: 160px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+
+
+.actioncontent {
+  //border: solid black 1px;
+  width: 60%;
+  height: 250px;
+  margin: auto;
+  padding-right: 50px;
+  margin-top: 60px;
+}
+
+.actioncontent p{
+  text-align: center;
+  word-spacing: 1.5em;
+  font-family: Montserrat;
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  margin-right: 68px;
+}
+
+.actioncontent h1{
+  word-spacing: 2.5em;
+  font-family: Nevrada;
+  font-size: 50px;
+  color: white;
+  margin-top: 15px;
+  padding-left: 55px;
+  max-width: 100%
+}
+
+.flex {
+  display: flex;
+}
+
+.btn1 {
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+
+
+.btn1 a {
+  text-shadow: 3px 5px 5px black;
+  text-decoration: none;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  word-spacing: 0.4em;
+  padding-right: 10px;
+  margin-bottom: 8px;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  background-color: white;
+  color: black;
+}
+
+.btn1 a:hover {
+  color: black;
+}
+
+.btn1 .link {
+  margin-left: 15px;
+  margin-bottom: 20px;
+
+}
+
+.btn2 {
+  margin-top: 20px;
+  margin-left: 75px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+
+
+.btn2 a {
+  text-decoration: none;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  word-spacing: 0.4em;
+  margin-left: 36px;
+
+}
+
+
+
+hr {
+  transition: all 0.3s linear;
+  height: 1px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 110px;
+}
+
+/* end nav, actioncontent, content */
+
+
+
+
+
+
+
+/* SERVICES */
+
+.service {
+  margin: auto;
+  width: 1349px;
+  height: 400px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.service .choose {
+  font-family: Montserrat, sans-serif;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+
+.b {
+  transition: all 0.1s ease-out;
+}
+
+.b:hover {
+  transform: scale(1.1);
+}
+
+.imgs img {
+  width: 200px;
+  margin: 20px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/* end services */
+
+
+
+
+/* offers */
+
+.offers {
+  margin: auto;
+  width: 1349px;
+  height: 600px;
+  background-image: url(offers.jpg);
+  background-size: cover;
+}
+
+span {
+  color: #F58D00;
+}
+
+.offers .offers1 hr {
+  margin: auto;
+  max-width: 26.5%;
+  margin-top: 5px;
+  border: none;
+}
+
+.offers .offers1 {
+  text-align: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  padding-top: 50px;
+}
+
+.flex1 {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex1 .box .box1 .box2 {
+  margin: auto;
+}
+
+.box {
+background-image: url(pizza.jpg);
+background-position: center;
+background-size: cover;
+height: 350px;
+width: 200px;
+color: white;
+text-align: center;
+background-size: 120%;
+transition: all 1s cubic-bezier(.69, 0, .38, .99);
+background-repeat: no-repeat;
+}
+
+
+.box:hover {
+  background-size: 155%;
+}
+
+
+.box1 {
+background-image: url(Sushi.jpg);
+background-position: center;
+background-size: cover;
+height: 350px;
+width: 200px;
+color: white;
+text-align: center;
+background-size: 140%;
+transition: all 4s cubic-bezier(.69, 0, .38, .99);
+background-repeat: no-repeat;
+}
+
+.box2 {
+background-image: url(fish.jpg);
+background-position: center;
+background-size: cover;
+height: 350px;
+width: 200px;
+color: white;
+text-align: center;
+background-size: 120%;
+transition: all 1s cubic-bezier(.69, 0, .38, .99);
+background-repeat: no-repeat;
+}
+
+.box2:hover {
+  background-size: 155%;
+}
+
+.box h1, .box p {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.box1 h1, .box1 p {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.box1 .border {
+  opacity: 0.0;
+  position: relative;
+  height: 0px;
+  width: 0px;
+  margin: auto;
+  margin-top: 70px;
+  border: solid white 1px;
+  transition: all 500ms cubic-bezier(.69, 0, .38, .99);
+}
+
+.box1:hover .border {
+  opacity: 1.1;
+  height: 30px;
+  width: 78px;
+}
+
+.box1 p {
+  margin-top: -60px;
+}
+
+.overlay hr {
+  top: 60px;
+  position: relative;
+  border: none;
+  margin: auto;
+  margin-top: 10px;
+  width: 0%;
+  transition: all 500ms cubic-bezier(.69, 0, .38, .99);
+}
+
+
+.box:hover hr {
+ width: 100%;
+}
+
+.hr {
+  opacity: 0.0;
+  left: 115px;
+}
+
+.hr1 {
+  opacity: 0.0;
+  right: 115px;
+}
+
+.box2:hover .hr {
+  opacity: 1.1;
+  width: 120%;
+  left: 0px;
+}
+
+.box2:hover .hr1 {
+  opacity: 1.1;
+  width: 120%;
+  right: 0px;
+}
+
+.overlay:hover .button0 {
+  opacity: 1.0;
+  top: 150px;
+}
+
+.overlay:hover .button2 {
+  opacity: 1.0;
+  right: 0px;
+}
+
+.stars {
+  position: relative;
+  opacity: 0.0;
+  transform: scale(0.0);
+  list-style-type: none;
+  color: #F58D00;
+  top: 100px;
+  transition: all 500ms cubic-bezier(.69, 0, .38, .99);
+}
+
+.stars1 {
+  position: relative;
+  opacity: 0.0;
+  transform: scale(0.0);
+  list-style-type: none;
+  color: #F58D00;
+  top: 50px;
+  transition: all 500ms cubic-bezier(.69, 0, .38, .99);
+}
+
+.overlay:hover .stars1 {
+  transform: scale(1.1);
+  opacity: 1.0;
+}
+
+.overlay:hover .stars {
+  transform: scale(1.1);
+  opacity: 1.0;
+}
+
+button {
+  transition: all 0.3s cubic-bezier(.69, 0, .38, .99);
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  color: black;
+  background-color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button0 {
+  opacity: 0.0;
+  position: relative;
+  top: 166px;
+}
+
+.button2 {
+  opacity: 0.0;
+  position: relative;
+  top: 150px;
+  right: 55px;
+}
+
+.overlay:hover .button1 {
+  transform: scale(1.1);
+  opacity: 1.0;
+  animation-name: button;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+.button1 {
+  transform: scale(0.0);
+  opacity: 0.0;
+  position: relative;
+  top: 90px;
+  transition: all 0.5s cubic-bezier(.69, 0, .38, .99);
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  color: black;
+  background-color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@keyframes button {
+  0% {
+    top: 50px;
+  }
+
+  100% {
+    top: 90px;
+  }
+
+}
+
+.overlay h1 {
+  font-family: belligiant, sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  top: 120px;
+  transition: all 0.5s cubic-bezier(.69, 0, .38, .99);
+}
+
+.overlay:hover h1 {
+  font-family: belligiant, sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  top: 70px;
+}
+
+
+.overlay p {
+  top: 65px;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  font-style: bold;
+  opacity: 0.0;
+  transform: scale(0.0);
+  transition: all 500ms cubic-bezier(.69, 0, .38, .99);
+}
+
+.box:hover p {
+  transform: scale(1.1);
+  opacity: 1.0;
+}
+
+.box1:hover p {
+  transform: scale(1.1);
+  opacity: 1.0;
+}
+
+.box2:hover p {
+  transform: scale(1.1);
+  opacity: 1.0;
+}
+
+.overlay {
+  transition: all 1s cubic-bezier(.69, 0, .38, .99);
+  height: 350px;
+  width: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+.box:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box1:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box1:hover {
+  animation-name: zoom;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes zoom {
+ 0% {
+    background-size: 140%;
+  }
+  30% {
+    background-size: 120%;
+  }
+  100% {
+    background-size: 140%;
+  }
+}
+
+
+.box2:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box2 h1, .box2 p {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/*END OFFERS*/
+
+
+
+/* TESTIMONIALS */
+
+.testimonials {
+  border: solid black 1px;
+  width: 1349px;
+  height: 600px;
+}
+
+.testimonials .testimonials1 {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.testimonials .testimonials1 p {
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
+.image img {
+  margin-top: 50px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+/* END TESTIMONIALS */
+
+/* FOOTER */
+
+.footer {
+  background-image: url(offers.jpg);
+  display: flex;
+  margin: auto;
+  width: 1349px;
+  height: 300px;
+}
+
+.footer .logo1 {
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 30%;
+}
+
+.mylogo {
+  font-family: Belligiant, sans-serif;
+  color: white;
+  height: 60%;
+  padding-left: 10px;
+  width: 80%;
+}
+
+.footer .logo1 p {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  padding-left: 50px;
+  font-size: 20px;
+  width: 45%;
+  margin-top: -30px;
+}
+
+
+.footer .info  {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 60%;
+  padding: 10px;
+  margin: 60px 0 0 450px;
+  border: solid 1px white;
+}
+
+.footer .info p {
+  font-family: Montserrat, sans-serif;
+font-size: 19px;
+color: white;
+margin: 10px;
+}
+
+.copyright {
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  color: white;
+  height: 20px;
+  margin-top: 267px;
+  right: 1040px;
+  font-size: 13px;
+}
+
+/*END FOOTER */
