@@ -38,7 +38,7 @@ src: url('Nevrada.ttf'), url(Nevrada.otf);
   margin-top: -3px;
   color: white;
 }
-
+ 
 .nav {
   display: flex;
   justify-content: space-between;
