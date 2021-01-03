@@ -14,10 +14,10 @@ src: url('Nevrada.ttf'), url(Nevrada.otf);
 
 .header {
   background-image: url(image1.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  margin: auto;
+      background-size: cover;
+      width: 100%;
+      height: 80vh;
+      margin: auto;
 }
 
 
@@ -29,6 +29,7 @@ src: url('Nevrada.ttf'), url(Nevrada.otf);
 .logo {
   width: 19%;
   margin-left: 60px;
+  margin-right: 50px;
 }
 
 .logo h1 {
@@ -44,7 +45,7 @@ src: url('Nevrada.ttf'), url(Nevrada.otf);
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
-  width: 75%;
+  width: 75vw;
   font-family: Montserrat, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -69,12 +70,10 @@ src: url('Nevrada.ttf'), url(Nevrada.otf);
 
 
 .actioncontent {
-  //border: solid black 1px;
   width: 60%;
-  height: 250px;
   margin: auto;
   padding-right: 50px;
-  margin-top: 60px;
+  margin-top: 150px;
 }
 
 .actioncontent p{
@@ -666,4 +665,34 @@ margin: 10px;
 
 /*END FOOTER */
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .header {
+      width: 207vw;
+    }
+    .nav {
+    }
+    .logo {
+      width: 1%;
+      margin: 2%;
+      padding-right: 50%;
+    }
 
+    .logo h1 {
+      font-size: 1rem;
+    }
+
+    .nav a {
+      margin-left: 20px;
+    }
+    .actioncontent {
+      width: 87%;
+      margin-top: 60px;
+    }
+    .actioncontent p {
+      margin-left: 59px;
+      text-align: left;
+    }
+}
