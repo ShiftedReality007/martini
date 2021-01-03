@@ -668,13 +668,13 @@ margin: 10px;
 
     @media only screen and (max-width: 980px) and (min-width: 360px) and (orientation:portrait) {
       .header {
-        width: 100vw;
+        width: 167vw;
       }
       .nav {
         width: 45rem;
       }
       .logo h1 {
-        font-size: 20px;
+        fhttps://github.com/ShiftedReality007ont-size: 20px;
         width: 144%;
         margin-left: -70px;
       }
@@ -682,7 +682,6 @@ margin: 10px;
         margin-top: 75px;
       }
       .actioncontent h1 {
-        width: 120%;
         padding-right: 34px;
       }
       .actioncontent p {
