@@ -1,5 +1,5 @@
-@import url('//fonts.cdnfonts.com/css/belligiant');
-@import url('//fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Raleway:wght@100;200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/belligiant');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Raleway:wght@100;200&display=swap');
 @font-face {
 font-family: Nevrada;
 src: url('Nevrada.ttf'), url(Nevrada.otf);
@@ -666,25 +666,4 @@ margin: 10px;
 
 /*END FOOTER */
 
-    @media only screen and (max-width: 980px) and (min-width: 360px) and (orientation:portrait) {
-      .header {
-        width: 167vw;
-      }
-      .nav {
-        width: 45rem;
-      }
-      .logo h1 {
-        fhttps://github.com/ShiftedReality007ont-size: 20px;
-        width: 144%;
-        margin-left: -70px;
-      }
-      .actioncontent {
-        margin-top: 75px;
-      }
-      .actioncontent h1 {
-        padding-right: 34px;
-      }
-      .actioncontent p {
-        margin-right: 52%;
-      }
-    }
+
